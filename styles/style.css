@@ -1,0 +1,29 @@
+body {
+    background-color: #4373D9;
+}
+
+#menu ul{
+    list-style-type: none;
+}
+
+#menu li{
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul, a, li{
+    font-size: 20px;
+    padding: 25px;
+    display: flex;
+    background-color: #0C307C;
+    color: white;
+    flex-direction: row-reverse;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+
