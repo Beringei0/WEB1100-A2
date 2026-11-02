@@ -1,5 +1,6 @@
 body {
     background-color: #4373D9;
+    margin: 0%;
 }
 
 #menu ul{
@@ -14,6 +15,10 @@ ul {
     list-style-type: none;
 }
 
+header {
+    background-color: #0C307C;
+}
+
 ul, a, li{
     font-size: 20px;
     padding: 25px;
@@ -21,9 +26,23 @@ ul, a, li{
     background-color: #0C307C;
     color: white;
     flex-direction: row-reverse;
+    align-items: center;
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
 }
 
+.list-image{
+    position: absolute;
+    text-align: left;
+}
 
+h1, h2, p, a{
+    color: white;
+    font-family:sans-serif
+    
+}
+
+.meny-text {
+    max-width: 80%;
+}

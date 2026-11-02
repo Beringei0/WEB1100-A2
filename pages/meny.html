@@ -1,17 +1,61 @@
 <!DOCTYPE HTML>
 <html lang="en">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+<link rel="stylesheet" href="/kildekode/styles/style.css">
+
     <header>
         <div>
+            <a class="list-image" link href="/kildekode/pages/Home.html"><img src="/kildekode/pictures/maskott1_uten_bg.png" height="70" width="70"></a>
             <link rel="icon" href="/pictures/maskott1.jpg">
 
-            <link rel="stylesheet" href="/styles/style.css">
-
             <ul id="menu" style="text-align: right;">
-                <a link href="/pages/Omoss.html">Om oss</a>
-                <a link href="/pages/nyheter.html">Nyheter</a>
-                <strong><a link href="/pages/meny.html">Meny</a></strong>
-                <a link href="/pages/Home.html">Hjem</a>
+                <a link href="/kildekode/pages/Omoss.html">Om oss</a>
+                <a link href="/kildekode/pages/nyheter.html">Nyheter</a>
+                <strong><a link href="/kildekode/pages/meny.html">Meny</a></strong>
+                <a link href="/kildekode/pages/Home.html">Hjem</a>
             </ul>
         </div>
         
     </header>
+
+    <body>
+    <h1 style="text-align: center;">Våre Produkter</h1>
+
+    <div class="clearfix">
+        <div class="img-container">
+        <img src="/kildekode/pictures/smashburger.jpg" style="width: 400px; height: 280px; box-sizing: border-box;">
+        <h2>Classic</h2>
+        <p class="meny-text">Signaturbrød, smæsha patty, cheddarost, finhaket løk, ketchup, sennep</p>
+        <p>Allergener: Gluten, Melk, Egg, Sennep</p>
+        </div>
+
+        <div class="img-container">
+        <img src="/kildekode/pictures/bbq-smashburger.jpg" style="width: 400px; height: 280px; box-sizing: border-box;">
+        <h2>Fancy</h2>
+        <p class="meny-text">Signaturbrød, smæsha patty, cheddarost, løk, pickles, salat, tomat, smashhh dressing</p>
+        <p>Allergener: Gluten, Melk, Egg, Sennep</p>
+        </div>
+
+        <div class="img-container">
+        <img src="/kildekode/pictures/smash_fries.jpg" style="width: 400px; height: 280px; box-sizing: border-box;">
+        <h2>Smashhh Fries</h2>
+        <p class="meny-text">Hakket patty, cheddarost, løk, jalapeño, chipotle & bbq dressing</p>
+        <p>Allergener: Melk</p>
+        </div>
+    </div>

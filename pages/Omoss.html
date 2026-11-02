@@ -1,26 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<link rel="stylesheet" href="/kildekode/styles/style.css">
+
 <head>
    
     <title>Document</title>
-    <link rel="icon" href="/pictures/maskott1.jpg">
+    <link rel="icon" href="\pictures\maskott1.jpg">
   
 </head>
+<header style="background-color: #0C307C">
+        <div>
+            <a class="list-image" link href="/kildekode/pages/Home.html"><img src="/kildekode/pictures/maskott1_uten_bg.png" height="70" width="70"></a>
+            <link rel="icon" href="/pictures/maskott1.jpg">
 
-<body style="background-color:#4373D9;">
+
+
+            <ul id="menu" style="text-align: right;">
+                <strong><a link href="/kildekode/pages/Omoss.html">Om oss</a></strong>
+                <a link href="/kildekode/pages/nyheter.html">Nyheter</a>
+                <a link href="/kildekode/pages/meny.html">Meny</a>
+                <a link href="/kildekode/pages/Home.html">Hjem</a>
+            </ul>
+        </div>
+    </header>
+
+<body>
+
+    
+<h1 style="color: white; text-align: center; font-family: Arial, Helvetica, sans-serif;">OM OSS</h1>
+<br>
+<div class="stripe">
+    <p style="color: #4373D9;">
+       E-post:<a href="mailto:Post@smashhh.no">Post@smashhh.no</a>
+    </p>
+
+    <p style="color: #4373D9;">
+         Telefon: <a href="tel:+4740299714">402 99 714</a>
+    </p>
+</div>
 
 <div id="Adresse">
-    <p>Dronnings Åstas Gate 14, Hønefoss</p>
-    <img id="kart" src="/pictures/Location2.png" alt="Kart">
+    <p>Vil du søke jobb her?</p>
+    <b>Om du vil søke jobb her, kan du sende oss en</b>
+    <br>
+    <b>epost eller ringe på telefon</b>
+    <p style="font-size: 30px;">Dronnings Åstas Gate 14, Hønefoss</p>
+    <img id="kart" src="\kildekode\pictures\Location2.png" alt="Kart">
 </div>
 
 <style>
-    #Adresse {
+
+    .stripe {
+        background-color: white;
+        width: 100%;
+        padding: 20px 0;
         text-align: center;
-        margin-top: 380px;
+        gap: 150px;
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        
+}
+
+    #Søkjobb {
+        text-align: center;
+        margin-top: 100px;
         color: white;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 200%;
+        font-size: 150%;  
+    }
+    #Adresse {
+        text-align: center;
+        margin-top: 100px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 150%;
 
     }
 
@@ -29,6 +85,14 @@
         width: 700px;
         display: block;
         margin: auto;
+    }
+
+    .stripe a {
+    background-color: white;
+    color: #4373D9;
+     padding: 0%;
+     margin: 0%; 
+     display: inline;
     }
 </style>
 

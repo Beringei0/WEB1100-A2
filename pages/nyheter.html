@@ -4,9 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/kildekode/styles/style.css">
+
+    <style>
+        .news-item {
+            display: flex;
+            gap: 6px;
+            margin-bottom: 28px;
+            align-items: flex-start;
+        }
+
+        .date {
+            background-color: white;
+            width: 80px;
+            min-width: 90px;
+            padding: 8px 5px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .content {
+            background-color: white;
+            flex: 1;
+            min-height: 119px;
+            padding: 14px 12px;
+            font-size: 16px;
+        }
+
+        p {
+            color: black;
+        }
+        
+    </style>
+    
+
+    <header style="background-color: #0C307C">
+        <div>
+            <a class="list-image" link href="/kildekode/pages/Home.html"><img src="/kildekode/pictures/maskott1_uten_bg.png" height="70" width="70"></a>
+            <link rel="icon" href="/pictures/maskott1.jpg">
+
+
+
+            <ul id="menu" style="text-align: right;">
+                <a link href="/kildekode/pages/Omoss.html">Om oss</a>
+                <strong><a link href="/kildekode/pages/nyheter.html">Nyheter</a></strong>
+                <a link href="/kildekode/pages/meny.html">Meny</a>
+                <a link href="/kildekode/pages/Home.html">Hjem</a>
+            </ul>
+        </div>
+    </header>
 </head>
 <body>
-    <h1>Smashhhing nyheter</h1>
+
+     <main>
+        <br>
+        <h1 style="text-align: center;">Smashhhing nyheter</h1>
+        <br>
+
+        <section class="news">
+
+            <article class="news-item">
+                <div class="date">
+                    <p>21.09.26</p>
+                </div>
+                <div class="content">
+                    <p>nyheter</p>
+                </div>
+            </article>
+
+            <article class="news-item">
+                <div class="date">
+                    <p>21.09.26</p>
+                </div>
+                <div class="content">
+                    <p>nyheter</p>
+                </div>
+            </article>
+
+                <article class="news-item">
+                <div class="date">
+                    <p>21.09.26</p>
+                </div>
+                <div class="content">
+                    <p>nyheter</p>
+                </div>
+            </article>
+
+            <article class="news-item">
+                <div class="date">
+                    <p>21.09.26</p>
+                </div>
+                <div class="content">
+                    <p>nyheter</p>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
 </body>
 </html>

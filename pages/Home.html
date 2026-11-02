@@ -1,27 +1,111 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="/styles/style.css">
+<link rel="stylesheet" href="/kildekode/styles/style.css">
     <head>
 
-    <img src="/pictures/maskott1.jpg">
+    
 
     </head>
+    <header>
+        <div>
+            <a class="list-image" link href="/kildekode/pages/Home.html"><img src="/kildekode/pictures/maskott1_uten_bg.png" height="70" width="70"></a>
+            <link rel="icon" href="/pictures/maskott1.jpg">
 
-    <body>
-        <h1 style="text-align: center;"> Velkommen til</h1>
-    <div style="text-align: center;">
-        <img src="/pictures/SMASHHH_3.png"  width="300">
+
+
+            <ul id="menu" style="text-align: right;">
+                <a link href="/kildekode/pages/Omoss.html">Om oss</a>
+                <a link href="/kildekode/pages/nyheter.html">Nyheter</a>
+                <a link href="/kildekode/pages/meny.html">Meny</a>
+               <strong><a link href="/kildekode/pages/Home.html">Hjem</a></strong>
+            </ul>
         </div>
+
+    </header>
+
+    <body style="background-color:#4373D9;">
         
-    <h2 style="text-align: center;"> Vi SMASHHH'ER smakesløkene dine</h2>
+        <h1 style="text-align: center;">Velkommen til</h1>
+
+<div class="bilder">
+    <img src="\kildekode\pictures\SMASHHH_3.png" class="logo" width="500">
+
+    <img src="\kildekode\pictures\gutta_pa_smash.jpg" class="matbil" width="600">
+</div>
+  
+
+    <h1 style="text-align: center;"> Vi SMASHHH'ER smakesløkene dine</h1>
 
     <div style="text-align: center;">
-    <img src="/pictures/Location2.png" width="300">
+    <img src="\kildekode\pictures\Location2.png" width="500">
 </div>
     </body>
 
     <footer>
-        <h1 style="text-align: center;">Epost:Post@smashhh.no        Telefon:402 99 714</h1>
+        
 
+    
+<div class="stripe">
+    <p style="color: #4373D9;">
+        Epost: <a href="mailto:Post@smashhh.no">Post@smashhh.no</a>
+    </p>
+
+    <p style="color: #4373D9;">
+        Telefon: <a href="tel:+4740299714">402 99 714</a>
+    </p>
+</div>
+
+
+<style> 
+
+.stripe {
+        background-color: white;
+        width: 100%;
+        padding: 20px 0 ;
+        text-align: center;
+        color: #4373D9;
+        display: flex;
+        justify-content: center;
+        gap: 150px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+}
+
+.bilder {
+    position: relative;
+    width: 500px;
+    margin: auto;
+}
+
+.logo {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.matbil {
+    display: block;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.stripe a {
+    background-color: transparent;
+    color: #4373D9;
+    text-decoration: underline;
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.stripe a:hover {
+    color: darkblue;
+}
 
 
 </DOCTYPE>
