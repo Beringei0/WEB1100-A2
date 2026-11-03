@@ -45,4 +45,57 @@ h1, h2, p, a{
 
 .meny-text {
     max-width: 80%;
+    margin-left: 10%
 }
+
+.clearfix {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.img-container {
+    width: 33.33%;
+    padding: 20px;
+    text-align: center;
+}
+
+.img-container img {
+    width: 100%;
+    max-width: 60%;
+    height: 60%;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.stripe {
+        background-color: white;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        color: #4373D9;
+        display: flex;
+        justify-content: center;
+        gap: 150px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+}
+
+.stripe a {
+    background-color: transparent;
+    color: #4373D9;
+    text-decoration: underline;
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.stripe a:hover {
+    color: darkblue;
+}
+
+
