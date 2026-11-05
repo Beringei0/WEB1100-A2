@@ -5,14 +5,7 @@ body {
 
 #menu ul{
     list-style-type: none;
-}
-
-#menu li{
-    display: inline;
-}
-
-ul {
-    list-style-type: none;
+    text-align: right;
 }
 
 header {
